@@ -5,7 +5,6 @@ import { readEvents } from '../actions'
 
 class EventsIndex extends Component {
   componentDidMount() {
-    console.log("hi!")
     this.props.readEvents()
   }
   render() {
